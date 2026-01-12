@@ -3,49 +3,135 @@
 <head>
 <meta charset="UTF-8">
 <title>Portal Informasi Progres Proyek</title>
+
 <style>
-body {font-family: Arial; background:#f4f6f8; margin:0;}
-.container {max-width:1100px; margin:auto; padding:25px;}
-.header {background:#1f3a5f; color:white; padding:25px; border-radius:10px;}
-.header img {height:60px; vertical-align:middle;}
-.header h1 {display:inline-block; margin-left:15px;}
-.menu a {margin-right:15px; color:#1f3a5f; text-decoration:none; font-weight:bold;}
-.box {background:white; padding:20px; border-radius:10px; margin-top:20px;}
-.timeline li {margin-bottom:10px;}
-.footer {text-align:center; margin-top:30px; font-size:13px; color:#777;}
+body {
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+}
+
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:25px;
+}
+
+.header {
+  background:#1f3a5f;
+  color:white;
+  padding:25px;
+  border-radius:10px;
+}
+
+.header img {
+  height:60px;
+  vertical-align:middle;
+}
+
+.header h1 {
+  display:inline-block;
+  margin-left:15px;
+  vertical-align:middle;
+}
+
+.header p {
+  margin-top:10px;
+  font-size:14px;
+  opacity:0.9;
+}
+
+.menu {
+  margin-top:20px;
+}
+
+.menu a {
+  margin-right:15px;
+  color:#1f3a5f;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.menu a:hover {
+  text-decoration:underline;
+}
+
+.box {
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+.timeline li {
+  margin-bottom:10px;
+}
+
+.disclaimer {
+  margin-top:20px;
+  background:#fff8e1;
+  padding:15px 20px;
+  border-left:5px solid #ffb300;
+  font-size:14px;
+  color:#555;
+  border-radius:6px;
+  line-height:1.6;
+}
+
+.footer {
+  text-align:center;
+  margin-top:30px;
+  font-size:13px;
+  color:#777;
+}
 </style>
 </head>
+
 <body>
 
 <div class="container">
 
-<div class="header">
-  <img src="logo.png" alt="Logo Proyek">
-  <h1>Portal Informasi Progres Proyek</h1>
-  <p>Media transparansi dan dokumentasi untuk warga</p>
+  <!-- HEADER -->
+  <div class="header">
+    <img src="logo.png" alt="Logo Proyek">
+    <h1>Portal Informasi Progres Proyek</h1>
+    <p>Media transparansi dan dokumentasi perkembangan proyek untuk warga</p>
+  </div>
+
+  <!-- MENU -->
+  <div class="menu">
+    <a href="dokumen.html">📄 Dokumen</a>
+    <a href="foto.html">📷 Foto</a>
+    <a href="video.html">🎥 Video</a>
+    <a href="faq.html">❓ FAQ Warga</a>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="box">
+    <h3>Timeline Proyek (Ringkas)</h3>
+    <ul class="timeline">
+      <li><strong>Desember 2025</strong> – Sosialisasi kepada warga</li>
+      <li><strong>Januari 2026</strong> – Persiapan dan perizinan</li>
+      <li><strong>Februari 2026</strong> – Pelaksanaan pekerjaan</li>
+      <li><strong>Maret 2026</strong> – Monitoring dan evaluasi</li>
+    </ul>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="box disclaimer">
+    <strong>Catatan Penting:</strong><br>
+    Informasi, dokumen, foto, dan video yang ditampilkan pada portal ini
+    bersifat informatif dan dapat diperbarui sewaktu-waktu sesuai dengan
+    perkembangan proyek di lapangan dan hasil koordinasi terkait.
+    Portal ini tidak dimaksudkan sebagai laporan akhir maupun dokumen keputusan.
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 Portal Informasi Proyek
+  </div>
+
 </div>
 
-<div class="menu">
-  <a href="dokumen.html">📄 Dokumen</a>
-  <a href="foto.html">📷 Foto</a>
-  <a href="video.html">🎥 Video</a>
-  <a href="faq.html">❓ FAQ Warga</a>
-</div>
-
-<div class="box">
-<h3>Timeline Proyek (Ringkas)</h3>
-<ul class="timeline">
-  <li><strong>Desember 2025</strong> – Sosialisasi kepada warga</li>
-  <li><strong>Januari 2026</strong> – Persiapan dan perizinan</li>
-  <li><strong>Februari 2026</strong> – Pelaksanaan pekerjaan</li>
-  <li><strong>Maret 2026</strong> – Monitoring & evaluasi</li>
-</ul>
-</div>
-
-<div class="footer">
-© 2026 Portal Informasi Proyek
-</div>
-
-</div>
 </body>
 </html>
