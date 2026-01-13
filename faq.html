@@ -1,81 +1,153 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>FAQ – Pertanyaan Warga</title>
+<meta charset="UTF-8">
+<title>FAQ – Pertanyaan Warga</title>
 
-  <!-- CSS UTAMA (WAJIB, sama dengan index) -->
-  <link rel="stylesheet" href="style.css">
+<style>
+/* ===== CSS SAMA PERSIS DENGAN INDEX ===== */
+body {
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+}
 
-  <!-- CSS FAQ (OPSIONAL, sangat ringan) -->
-  <link rel="stylesheet" href="faq.css">
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:25px;
+}
+
+.header {
+  background:#1f3a5f;
+  color:white;
+  padding:25px;
+  border-radius:10px;
+}
+
+.header img {
+  height:60px;
+  vertical-align:middle;
+}
+
+.header h1 {
+  display:inline-block;
+  margin-left:15px;
+  vertical-align:middle;
+}
+
+.header p {
+  margin-top:10px;
+  font-size:14px;
+  opacity:0.9;
+}
+
+.menu {
+  margin-top:20px;
+}
+
+.menu a {
+  margin-right:15px;
+  color:#1f3a5f;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.menu a:hover {
+  text-decoration:underline;
+}
+
+.box {
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+.box h3 {
+  margin-top:0;
+  color:#1f3a5f;
+}
+
+.footer {
+  text-align:center;
+  margin-top:30px;
+  font-size:13px;
+  color:#777;
+}
+</style>
 </head>
 
 <body>
 
-<section class="section">
-  <div class="container">
+<div class="container">
 
-    <h2 class="section-title">FAQ – Pertanyaan Warga</h2>
-
-    <div class="cards">
-
-      <!-- TEKNIS -->
-      <div class="card">
-        <h3 class="card-title">🛠️ Teknis Proyek</h3>
-
-        <p><strong>Tujuan proyek</strong><br>
-        Memperbaiki dan memperkuat dinding pembatas perumahan dan sungai untuk mencegah banjir, longsor, dan meningkatkan keamanan.</p>
-
-        <p><strong>Alasan perbaikan</strong><br>
-        Dinding lama mengalami kerusakan dan jebol sehingga berisiko bagi lingkungan sekitar.</p>
-
-        <p><strong>Ruang lingkup pekerjaan</strong></p>
-        <ul>
-          <li>Pembangunan ulang dinding pembatas</li>
-          <li>Perbaikan pintu air gorong-gorong</li>
-          <li>Penimbunan tanah longsor</li>
-          <li>Perencanaan lubang kontrol dan pompa air</li>
-        </ul>
-
-        <p><strong>Dampak ke warga</strong><br>
-        Pekerjaan diupayakan tidak mengganggu aktivitas warga sehari-hari.</p>
-      </div>
-
-      <!-- DANA -->
-      <div class="card">
-        <h3 class="card-title">💰 Dana & Pembiayaan</h3>
-
-        <p><strong>Sumber dana</strong><br>
-        Berasal dari iuran warga dan sumbangan pihak luar.</p>
-
-        <p><strong>Besaran sumbangan</strong><br>
-        Dianjurkan Rp100.000 per rumah per bulan (Januari–Juni 2026).</p>
-
-        <p><strong>Sifat sumbangan</strong><br>
-        Bersifat sukarela dan tidak ada unsur paksaan.</p>
-      </div>
-
-      <!-- PARTISIPASI -->
-      <div class="card">
-        <h3 class="card-title">🤝 Partisipasi Warga</h3>
-
-        <p><strong>Jika belum mampu berdonasi dana</strong><br>
-        Warga tetap dapat berpartisipasi melalui tenaga, konsumsi, peralatan, saran, atau doa.</p>
-
-        <p><strong>Manfaat tambahan proyek</strong><br>
-        Membatasi akses tidak aman dari sisi sungai.</p>
-
-        <p><strong>Informasi perkembangan</strong><br>
-        Dapat dilihat melalui menu Dokumen, Foto, dan Video.</p>
-
-        <p><strong>Status informasi</strong><br>
-        Informasi dapat diperbarui sesuai kondisi lapangan.</p>
-      </div>
-
-    </div>
+  <!-- HEADER -->
+  <div class="header">
+    <img src="logo.png" alt="Logo Proyek">
+    <h1>FAQ – Pertanyaan Warga</h1>
+    <p>Pertanyaan umum seputar proyek dinding pembatas Perumahan Madani Albadar</p>
   </div>
-</section>
+
+  <!-- MENU -->
+  <div class="menu">
+    <a href="index.html">🏠 Beranda</a>
+    <a href="dokumen.html">📄 Dokumen</a>
+    <a href="foto.html">📷 Foto</a>
+    <a href="video.html">🎥 Video</a>
+    <a href="faq.html">❓ FAQ</a>
+  </div>
+
+  <!-- TEKNIS -->
+  <div class="box">
+    <h3>🛠️ Teknis Proyek</h3>
+
+    <p><strong>Apa tujuan proyek ini?</strong><br>
+    Memperbaiki dan memperkuat dinding pembatas antara perumahan dan sungai untuk mencegah banjir, longsor, serta meningkatkan keamanan warga.</p>
+
+    <p><strong>Mengapa dinding perlu diperbaiki?</strong><br>
+    Dinding sebelumnya mengalami kerusakan dan jebol sehingga menimbulkan risiko banjir dan akses tidak aman.</p>
+
+    <p><strong>Pekerjaan apa saja yang dilakukan?</strong><br>
+    Pembangunan ulang dinding, perbaikan pintu air gorong-gorong, penimbunan tanah longsor, serta rencana lubang kontrol dan pompa air.</p>
+
+    <p><strong>Apa fungsi pintu air dan pompa?</strong><br>
+    Untuk mengatur aliran air dan membuang air dari gorong-gorong saat pintu air ditutup karena permukaan sungai tinggi.</p>
+  </div>
+
+  <!-- DANA -->
+  <div class="box">
+    <h3>💰 Dana & Pembiayaan</h3>
+
+    <p><strong>Dari mana sumber dana proyek?</strong><br>
+    Dari iuran warga dan sumbangan pihak luar.</p>
+
+    <p><strong>Berapa sumbangan yang dianjurkan?</strong><br>
+    Minimal Rp100.000 per rumah per bulan (Januari–Juni 2026).</p>
+
+    <p><strong>Apakah sumbangan bersifat wajib?</strong><br>
+    Tidak. Sumbangan bersifat sukarela dan tanpa paksaan.</p>
+  </div>
+
+  <!-- PARTISIPASI -->
+  <div class="box">
+    <h3>🤝 Partisipasi Warga</h3>
+
+    <p><strong>Jika belum mampu menyumbang dana?</strong><br>
+    Warga dapat berkontribusi melalui tenaga, konsumsi, peralatan, saran, atau doa.</p>
+
+    <p><strong>Apa manfaat tambahan dinding pembatas?</strong><br>
+    Membatasi akses dari sisi sungai dan meningkatkan keamanan lingkungan.</p>
+
+    <p><strong>Di mana melihat perkembangan proyek?</strong><br>
+    Melalui menu Dokumen, Foto, dan Video pada portal ini.</p>
+  </div>
+
+  <div class="footer">
+    © 2026 Portal Informasi Proyek
+  </div>
+
+</div>
 
 </body>
 </html>
