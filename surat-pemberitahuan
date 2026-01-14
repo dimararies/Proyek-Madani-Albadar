@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Surat Pemberitahuan Renovasi Fasum</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+}
+
+.container {
+  max-width:900px;
+  margin:auto;
+  padding:25px;
+}
+
+.header {
+  background:#1f3a5f;
+  color:white;
+  padding:25px;
+  border-radius:10px;
+}
+
+.header h1 {
+  margin:0;
+  font-size:22px;
+}
+
+.header p {
+  margin-top:8px;
+  font-size:14px;
+  opacity:0.9;
+}
+
+.menu {
+  margin-top:20px;
+}
+
+.menu a {
+  margin-right:15px;
+  color:#1f3a5f;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.menu a:hover {
+  text-decoration:underline;
+}
+
+.box {
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  margin-top:20px;
+  line-height:1.7;
+  color:#333;
+}
+
+.surat-header {
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.surat-header h2 {
+  margin:0;
+  font-size:18px;
+  text-transform:uppercase;
+}
+
+.surat-header p {
+  margin:4px 0;
+  font-size:14px;
+}
+
+.meta {
+  margin-bottom:20px;
+  font-size:14px;
+}
+
+.meta strong {
+  display:inline-block;
+  width:120px;
+}
+
+ol {
+  margin-left:20px;
+}
+
+.footer-surat {
+  margin-top:40px;
+}
+
+.ttd {
+  margin-top:50px;
+}
+
+.footer {
+  text-align:center;
+  margin-top:30px;
+  font-size:13px;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Surat Pemberitahuan</h1>
+    <p>Renovasi Fasilitas Umum Perumahan Madani Al Badar</p>
+  </div>
+
+  <!-- MENU -->
+  <div class="menu">
+    <a href="index.html">🏠 Beranda</a>
+    <a href="dokumen.html">📄 Dokumen</a>
+    <a href="foto.html">📷 Foto</a>
+    <a href="video.html">🎥 Video</a>
+    <a href="faq.html">❓ FAQ</a>
+  </div>
+
+  <!-- ISI SURAT -->
+  <div class="box">
+
+    <div class="surat-header">
+      <h2>PANITIA PELAKSANA RENOVASI FASUM</h2>
+      <p><strong>Tembok Pembatas Perumahan Komplek Madani Al Badar</strong></p>
+      <p>Kel. Tanjung Gusta, Kec. Medan Helvetia</p>
+      <p>Kota Medan, Sumatera Utara</p>
+    </div>
+
+    <div class="meta">
+      Medan, 29 Desember 2025
+    </div>
+
+    <div class="meta">
+      <strong>Kepada Yth</strong> :<br>
+      Bapak/Ibu Warga Komplek Madani Al Badar<br>
+      Kel. Tanjung Gusta, Kec. Medan Helvetia<br>
+      Kota Medan, Sumatera Utara
+    </div>
+
+    <div class="meta">
+      <strong>Hal</strong> : Pemberitahuan Hasil Rapat dan Sosialisasi Pengumpulan Dana Renovasi Fasilitas Umum
+    </div>
+
+    <p><strong>Dengan hormat,</strong></p>
+
+    <p>
+      Sehubungan dengan rencana renovasi tembok pembatas Komplek Madani Al Badar yang rusak
+      akibat bencana banjir yang baru-baru ini terjadi, kami telah melaksanakan dua kali
+      rapat koordinasi. Adapun rangkuman hasil rapat tersebut adalah sebagai berikut:
+    </p>
+
+    <ol>
+      <li>
+        Disepakati pembentukan kepanitiaan renovasi fasilitas umum dengan susunan:
+        <ul>
+          <li>Penasehat : Opung Regar (0813 9686 5867)</li>
+          <li>Ketua : Rio (0813 7601 0332)</li>
+          <li>Sekretaris : Sugi (0813 1114 9797)</li>
+          <li>Bendahara : Khairul (0852 6170 6371)</li>
+          <li>Pengawas Teknik : Julham Afandi (0812 6683 9900)</li>
+          <li>Pelaksana : Seluruh Warga Komplek Perumahan Madani Al Badar</li>
+        </ul>
+      </li>
+
+      <li>Pembangunan tembok pembatas sepanjang ±100 meter dengan tinggi ±2 meter.</li>
+
+      <li>Pembuatan pintu air drainase di setiap saluran pembuangan air komplek menuju area PWS (Pengendalian Banjir).</li>
+
+      <li>Pelaksanaan pekerjaan renovasi dilakukan secara gotong royong oleh seluruh warga.</li>
+
+      <li>
+        Total dana yang dibutuhkan sebesar <strong>Rp92.527.900,-</strong>
+        (sembilan puluh dua juta lima ratus dua puluh tujuh ribu sembilan ratus rupiah).
+        Rencana Anggaran Biaya (RAB) terlampir.
+      </li>
+
+      <li>
+        Sumber dana:
+        <ul>
+          <li>Sumber Dana Utama: Iuran swadaya setiap rumah sebesar Rp100.000/bulan.</li>
+          <li>Sumber Dana Alternatif: Pengajuan proposal ke perusahaan (swasta/BUMN) dan instansi pemerintah.</li>
+        </ul>
+      </li>
+
+      <li>
+        Mekanisme pengumpulan dana:
+        <ul>
+          <li>
+            Transfer melalui:<br>
+            BANK SUMUT<br>
+            An. SUGIANTO<br>
+            No. Rek: 1220 2040 0001 01<br>
+            (Bukti transfer dikirim melalui WA kepada panitia atau grup warga)
+          </li>
+          <li>Setoran tunai kepada salah satu panitia.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <p>
+      Demikian surat pemberitahuan ini kami sampaikan. Besar harapan kami agar niat baik ini
+      dapat berjalan dengan lancar, sehingga fasilitas umum dan tembok pembatas perumahan
+      dapat kembali berfungsi dengan baik serta mempererat kerukunan dan silaturahmi antar
+      warga Perumahan Madani Al Badar.
+    </p>
+
+    <div class="footer-surat">
+      <p><strong>Hormat kami,</strong></p>
+
+      <div class="ttd">
+        <p>
+          Panitia Pelaksana Renovasi Fasum<br>
+          Ketua, <strong>Rio Ren Sembiring</strong><br>
+          Penasehat, <strong>Basrin Siregar</strong>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Portal Informasi Proyek – Perumahan Madani Al Badar
+  </div>
+
+</div>
+
+</body>
+</html>
